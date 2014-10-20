@@ -1,6 +1,190 @@
+<!DOCTYPE html>
 <html>
-<head></head>
-<body>
-<h1>Dumpster</h1>
-</body>
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dumpster</title>
+    <meta name="description" content="A simple responsive framework.">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/grid.css" type="text/css" />
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Typekit -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- Scripts -->
+    
+    <!-- Sticky Menu -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="scripts/jquery.sticky.js"></script>
+    <script src="scripts/main.js"></script>
+    <script> 
+		$(document).ready(function(){
+			$("#menu").sticky({topSpacing:0});
+		});
+	</script>
+  </head>
+
+  <body>
+    <header>
+
+      <nav>
+        <div class="container">
+
+          <div class="navbar">
+            <div class="brand">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="mobile-menu"><img src="images/grid/mobile-nav-icon.png" alt=""></div>
+            <ul class="menu">
+              <li><a href="about.html">About</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+      <div class='container'>
+        <div class="intro">
+          <p>Dumpster</p>
+          <h3>The freedom to make mistakes</h3>
+        </div>
+        <img src="images/grid/intro.png" alt="Intro" class="animated fadeInUp">
+      </div>
+    </header>
+
+    <section class="google">
+      <div class="google-play">
+        <a href="https://play.google.com/store/apps/details?id=com.baloota.dumpster" target="_blank">
+          <img src="images/grid/google-play.png" alt="Google Play" />
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+      <h1>Restore Anything!</h1>
+          <hr>
+            <div class="row">
+              <div class="column one-fourth">
+                <img src="images/grid/images.png" alt="List">
+                <h3 class="green">Images</h3>
+                <p>Addicted to taking pics? It's now so much easier to find your deleted images, sort them better and restore what's important - faster.</p>
+              </div>
+    
+              <div class="column one-fourth">
+                <img src="images/grid/video.png" alt="InApp Preview">
+                <h3 class="blue">Videos</h3>
+                <p>Instantly preview, videos and sounds right from within Dumpster. Restore or delete with one click.</p>
+              </div>
+    
+              <div class="column one-fourth">
+                <img src="images/grid/sound.png" alt="Security Code">
+                <h3 class="pink">Music &amp; Sounds</h3>
+                <p>Accidentally deleted your favorite ringtone? Worry not! You can easily restore it with Dumpster.</p>
+              </div>
+              
+              <div class="column one-fourth">
+                <img src="images/grid/other.png" alt="Security Code">
+                <h3 class="red">Everything else</h3>
+                <p>From text files to word documents, system and installation files, Dumpster can even restore the .ffk file type*.</p>
+              </div>
+            </div>
+            <p style="font-size:11px; margin-top:50px; float:left; width: 100%">*We have no idea what this file type is, but Dumpster can save it</p>
+        </div>
+      </section>
+    
+    <!--
+    <section class="playstore">
+      <div class="container">
+        <img src="images/grid/box-model.png" alt="Google Play">
+      </div>
+    </section>
+    -->
+      
+      <section class="video">
+        <div class="container">
+          <h1>Some mistakes are not so easy to fix</h1>
+          <p>But Dumpster has your phone covered. With one-click to restore, you're always safe to make mistakes.</p>
+          <hr>
+          <div class="video-container">
+            <iframe src="http://www.youtube.com/embed/lh22zI9Cwz8" frameborder="0" width="560" height="315"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+      <div class="container">
+        <h1>We just made Dumpster better!</h1>
+        <p>We made everything faster and a whole lot safer</p>
+        <hr>
+
+        <div class="row">
+          <div class="column one-third">
+            <img src="images/grid/list.png" alt="List">
+            <h3 class="content">Simple and Easy!</h3>
+            <p>It’s as easy as “click ‘n’ restore!” No need to root your device, even Internet connection is unnecessary!</p>
+          </div>
+
+          <div class="column one-third">
+            <img src="images/grid/lockscreen.png" alt="Lock Screen">
+            <h3 class="padding">Privacy Matters!</h3>
+            <p>We know media can get a bit ... private. With a 4-digit lock code, your stuff is for your eyes only.</p>
+          </div>
+
+          <div class="column one-third">
+            <img src="images/grid/folder_preview.png" alt="Folder Preview">
+            <h3 class="border">More? We got more!</h3>
+            <p>Dumpster is the ultimate tool to keep your information organized and in order. We have lots more to offer and yet more to come!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      <section class="footer">
+
+        <div class="container">
+
+          <div class="column one-third">
+              <p>Have feedback for us? Bring it on!</p>
+              <p>Contact us at: <a href="mailto:support@baloota.com">support@baloota.com</a></p>
+          </div>
+
+          <div class="column one-third">
+            <p>Dumpster is the first and only (!) Android recycle bin app. Created for real people with love. Because we believe that you should have the freedom to make mistakes!</p><br/>
+              <p><a href="https://play.google.com/store/apps/details?id=com.baloota.dumpster" target="_blank">
+              Download from Google Play
+            </a></p>
+          </div>
+
+          <div class="column one-third">
+            <div class="social-icons">
+              <a href="http://plus.google.com/+DumpsterappMobi/" target="_blank"><img src="images/grid/googleplus.png" alt="Google Plus" /></a>
+              <a href="http://facebook.com/dumpsterApp" target="_blank"><img src="images/grid/facebook.png" alt="Facebook" /></a>
+              <a href="http://twitter.com/dumpsterApp" target="_blank"><img src="images/grid/twitter.png" alt="Twitter" /></a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="copyright">
+      <div class="container">
+        <p>Copyrights ©2014 Baloota Apps | <a href="terms.html">Terms & Conditions</a> | <a href="privacy.html">Privacy Policy</a></p>
+      </div>
+    </section>
+
+  </body>
 </html>
