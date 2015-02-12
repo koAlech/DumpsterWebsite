@@ -346,6 +346,9 @@ nav .navbar {
 .press h1 {
   padding-bottom: 10px;
 }
+.press h3 {
+  text-align: left;
+}
 
 /* Support
 -------------------------------------------------------------- */
