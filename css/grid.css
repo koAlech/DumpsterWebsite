@@ -69,7 +69,7 @@ body {
 -------------------------------------------------------------- */
 header {
   background:url(../images/grid/dot_bg.png) repeat;
-  /*background: #16a085;*/
+  /*background: #00a550;*/
   color: #555;
   overflow: hidden;
   text-align: center;
@@ -215,30 +215,42 @@ nav {
 }
 
 nav.opaque {
-  background: #16a085;
+  background: #00a550;
   box-shadow: 0px 0px 4px -1px #333;
 }
 
 nav.static {
-  background: #16a085;
+  background: #00a550;
 }
 
 nav .navbar {
   overflow: hidden;
-  padding: 25px 0px;
+  /*padding: 25px 0px;*/
+  padding-top: 20px;
+  padding-bottom: 10px;
   box-sizing: border-box;
 }
 
 .navbar .brand {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(home-logo.svg);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  /*margin-top: 12px;*/
+}
+.navbar .brand {
   float: left;
 }
 
-.navbar .brand a {
-  padding: 0px 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-}
+/*.navbar .brand a {*/
+  /*padding: 0px 15px;*/
+  /*text-decoration: none;*/
+  /*text-transform: uppercase;*/
+  /*color: #fff;*/
+/*}*/
 
 .navbar .menu {
   float: right;
@@ -286,7 +298,7 @@ nav .navbar {
 }
 
 .footer a {
-  color: #16a085;
+  color: #00a550;
 }
 
 .footer .social-icons {
@@ -309,7 +321,7 @@ nav .navbar {
   background: #f5f5f5;
 }
 .copyright a {
-  color: #16a085;
+  color: #00a550;
 }
 
 .copyright p {
@@ -394,9 +406,9 @@ nav .navbar {
 }
 .year span {
   display: inline-block;
-  color: #16a085;
+  color: #00a550;
   padding: 2px 14px;
-  border: 1px dashed #16a085;
+  border: 1px dashed #00a550;
   border-radius: 12px;
   margin-bottom: 20px;
   font-weight: 500;
@@ -407,7 +419,7 @@ nav .navbar {
 }
 
 .year-achivements a {
-  color: #16a085;
+  color: #00a550;
   white-space: nowrap;
   width:100%; 
   overflow: hidden;
@@ -424,7 +436,7 @@ nav .navbar {
 
 .version-block span {
   display: inline-block;
-  background: #16a085;
+  background: #00a550;
   color: #FFFFFF;
   padding: 2px 14px;
   margin-bottom: 5px;
@@ -436,7 +448,7 @@ nav .navbar {
 }
 
 .version-block a {
-  color: #16a085;
+  color: #00a550;
 }
 
 
@@ -456,13 +468,13 @@ nav .navbar {
 }
 
 .faq .faq-title {
-  color: #16a085;
+  color: #00a550;
   font-weight: 500;
   position: relative;
   padding-right: 50px;
 }
 .faq .faq-title a {
-  color: #16a085;
+  color: #00a550;
   font-weight: 500;
   text-decoration: none;
 }
@@ -489,7 +501,7 @@ nav .navbar {
 }
 
 .faq .faq-content a {
-  color: #16a085;
+  color: #00a550;
   white-space: nowrap;
   width:100%; 
   overflow: hidden;
@@ -893,7 +905,7 @@ img {
 
   nav.opaque,
   nav.active {
-    background: #16a085;
+    background: #00a550;
   }
 
   nav .menu {
