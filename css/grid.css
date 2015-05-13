@@ -229,6 +229,7 @@ nav .navbar {
   padding-top: 20px;
   padding-bottom: 10px;
   box-sizing: border-box;
+  line-height: 50px;
 }
 
 .navbar .brand {
@@ -253,6 +254,7 @@ nav .navbar {
 
 .navbar .menu {
   float: right;
+  vertical-align: middle;
 }
 
 .navbar ul {
@@ -265,6 +267,7 @@ nav .navbar {
   display: inline-block;
   box-sizing: border-box;
 }
+
 
 .navbar ul li a {
   padding: 0px 15px;
