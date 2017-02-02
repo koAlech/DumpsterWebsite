@@ -1,55 +1,47 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://dumpsterapp.mobi" resolutions="1x" timestamp="1485523973577">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://dumpsterapp.mobi" resolutions="1x" timestamp="1486022048304">
   <folder name="css">
-    <file name="site_global.css" crc="237152940"/>
-    <file name="master_a-master.css" crc="3830347365" ref="about:support:press:index:terms:privacy"/>
-    <file name="nomq_preview_master_a-master.css" crc="158710072" ref="about:support:press:index:terms:privacy"/>
-    <file name="about.css" crc="308086113" ref="about"/>
-    <file name="nomq_about.css" crc="4179258581" ref="about"/>
-    <file name="iefonts_about.css" crc="3808723843" ref="about"/>
-    <file name="support.css" crc="455471102" ref="support"/>
-    <file name="nomq_support.css" crc="3767129763" ref="support"/>
+    <file name="site_global.css" crc="3877320102"/>
+    <file name="master_a-master.css" crc="242559540" ref="support:press:privacy:about:index:terms"/>
+    <file name="nomq_preview_master_a-master.css" crc="4235790993" ref="support:press:privacy:about:index:terms"/>
+    <file name="support.css" crc="206036836" ref="support"/>
+    <file name="nomq_support.css" crc="3942169293" ref="support"/>
     <file name="iefonts_support.css" crc="3808723843" ref="support"/>
-    <file name="press.css" crc="4111346782" ref="press"/>
-    <file name="nomq_press.css" crc="206498172" ref="press"/>
+    <file name="press.css" crc="3982285995" ref="press"/>
+    <file name="nomq_press.css" crc="4240110711" ref="press"/>
     <file name="iefonts_press.css" crc="3808723843" ref="press"/>
-    <file name="index.css" crc="506265039" ref="index"/>
-    <file name="nomq_index.css" crc="4062576762" ref="index"/>
-    <file name="iefonts_index.css" crc="3808723843" ref="index"/>
-    <file name="terms.css" crc="36476177" ref="terms"/>
-    <file name="nomq_terms.css" crc="414878051" ref="terms"/>
-    <file name="iefonts_terms.css" crc="3808723843" ref="terms"/>
-    <file name="privacy.css" crc="218271604" ref="privacy"/>
-    <file name="nomq_privacy.css" crc="332083583" ref="privacy"/>
+    <file name="privacy.css" crc="33288330" ref="privacy"/>
+    <file name="nomq_privacy.css" crc="426924258" ref="privacy"/>
     <file name="iefonts_privacy.css" crc="3808723843" ref="privacy"/>
+    <file name="about.css" crc="217550472" ref="about"/>
+    <file name="nomq_about.css" crc="3783120319" ref="about"/>
+    <file name="iefonts_about.css" crc="3808723843" ref="about"/>
+    <file name="index.css" crc="4174243716" ref="index"/>
+    <file name="nomq_index.css" crc="123406521" ref="index"/>
+    <file name="iefonts_index.css" crc="3808723843" ref="index"/>
+    <file name="terms.css" crc="3983934857" ref="terms"/>
+    <file name="nomq_terms.css" crc="326650754" ref="terms"/>
+    <file name="iefonts_terms.css" crc="3808723843" ref="terms"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:support:press:terms:privacy"/>
-    <file name="museutils.js" crc="4148063285" ref="index:about:support:press:terms:privacy"/>
-    <file name="whatinput.js" crc="86476730" ref="index:about:support:press:terms:privacy"/>
-    <file name="museconfig.js" crc="4179431180" ref="index:about:support:press:terms:privacy"/>
-    <file name="jquery.watch.js" crc="437028206" ref="index:about:support:press:terms:privacy"/>
-    <file name="jquery.musemenu.js" crc="3765830709" ref="index:about:support:press:terms:privacy"/>
-    <file name="webpro.js" crc="3986320349" ref="index:about:support:press:terms:privacy"/>
-    <file name="musewpslideshow.js" crc="405464237" ref="index:about:support:press:terms:privacy"/>
-    <file name="jquery.museoverlay.js" crc="305414130" ref="index:about:support:press:terms:privacy"/>
-    <file name="touchswipe.js" crc="221459597" ref="index:about:support:press:terms:privacy"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:about:support:press:terms:privacy"/>
-    <file name="jquery.museresponsive.js" crc="3991890305" ref="index:about:support:press:terms:privacy"/>
-    <file name="require.js" crc="4159430777" ref="index:about:support:press:terms:privacy"/>
-    <file name="musewpdisclosure.js" crc="3865010892" ref="support"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:press:terms:privacy:support"/>
+    <file name="museutils.js" crc="4148063285" ref="index:about:press:terms:privacy:support"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:press:terms:privacy:support"/>
+    <file name="museconfig.js" crc="4179431180" ref="index:about:press:terms:privacy:support"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="index:about:press:terms:privacy:support"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:about:press:terms:privacy:support"/>
+    <file name="webpro.js" crc="3986320349" ref="index:about:press:terms:privacy:support"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="index:about:press:terms:privacy:support"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="index:about:press:terms:privacy:support"/>
+    <file name="touchswipe.js" crc="221459597" ref="index:about:press:terms:privacy:support"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:press:terms:privacy:support"/>
+    <file name="jquery.museresponsive.js" crc="3991890305" ref="index:about:press:terms:privacy:support"/>
+    <file name="require.js" crc="4159430777" ref="index:about:press:terms:privacy:support"/>
   </folder>
   <folder name="images">
-    <file name="logo.svg" crc="4146738329" seo="true" ref="index:about:support:press:terms:privacy"/>
+    <file name="logo.svg" crc="4146738329" seo="true" ref="index:about:press:terms:privacy:support"/>
     <file name="logo_poster_.png" crc="4267809790" ref="index"/>
-    <file name="googleplus-color.svg" crc="3976785934" seo="true" ref="index:about:support:press:terms:privacy"/>
-    <file name="googleplus-color_poster_.png" crc="308449246" ref="index"/>
-    <file name="facebook-color.svg" crc="183915179" seo="true" ref="index:about:support:press:terms:privacy"/>
-    <file name="facebook-color_poster_.png" crc="312231417" ref="index"/>
-    <file name="twitter-color.svg" crc="213225247" seo="true" ref="index:about:support:press:terms:privacy"/>
-    <file name="twitter-color_poster_.png" crc="4037842377" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:about:support:press:terms:privacy"/>
     <file name="app.png" crc="519228014" seo="true" ref="index"/>
-    <file name="en_badge_web_generic.png" crc="141708252" seo="true" ref="index"/>
+    <file name="en_badge_web_generic.png" crc="3905892464" seo="true" ref="index"/>
     <file name="img.png" crc="3775196875" seo="true" ref="index"/>
     <file name="vid.png" crc="255896431" seo="true" ref="index"/>
     <file name="sound.png" crc="3850407752" seo="true" ref="index"/>
@@ -57,16 +49,23 @@
     <file name="simple.jpg" crc="4244398076" seo="true" ref="index"/>
     <file name="safe.jpg" crc="3974341989" seo="true" ref="index"/>
     <file name="more.jpg" crc="113953759" seo="true" ref="index"/>
+    <file name="googleplus-color.svg" crc="3976785934" seo="true" ref="index:about:press:terms:privacy:support"/>
+    <file name="googleplus-color_poster_.png" crc="308449246" ref="index"/>
+    <file name="facebook-color.svg" crc="183915179" seo="true" ref="index:about:press:terms:privacy:support"/>
+    <file name="facebook-color_poster_.png" crc="312231417" ref="index"/>
+    <file name="twitter-color.svg" crc="213225247" seo="true" ref="index:about:press:terms:privacy:support"/>
+    <file name="twitter-color_poster_.png" crc="4037842377" ref="index"/>
     <file name="app303x351.png" crc="3897630198" seo="true" ref="index"/>
-    <file name="app-crop-u26049.png" crc="3815864553" ref="index"/>
+    <file name="app-crop-u26049.png" crc="7159503" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about:press:terms:privacy:support"/>
     <file name="supporta.jpg" crc="3982561438" seo="true" ref="support"/>
     <file name="supportb.jpg" crc="4179441430" seo="true" ref="support"/>
     <file name="supportc.jpg" crc="4247331813" seo="true" ref="support"/>
   </folder>
-  <file name="index.html" crc="476655586" seo="true" mt="1485461323117" redirect="true"/>
-  <file name="about.html" crc="3851647041" seo="true" mt="1485461378906" redirect="true"/>
-  <file name="support.html" crc="227336060" seo="true" mt="1485523812045" redirect="true"/>
-  <file name="press.html" crc="402465011" seo="true" mt="1485461543590" redirect="true"/>
-  <file name="terms.html" crc="4082905739" seo="true" mt="1485461760668" redirect="true"/>
-  <file name="privacy.html" crc="524326112" seo="true" mt="1485461866258" redirect="true"/>
+  <file name="index.html" crc="4014444027" seo="true" mt="1486021956197" redirect="true"/>
+  <file name="about.html" crc="4233139090" seo="true" mt="1486021956197" redirect="true"/>
+  <file name="press.html" crc="3872080485" seo="true" mt="1486021956197" redirect="true"/>
+  <file name="terms.html" crc="232065721" seo="true" mt="1486021956197" redirect="true"/>
+  <file name="privacy.html" crc="533651091" seo="true" mt="1486021956197" redirect="true"/>
+  <file name="support.html" crc="15444658" seo="true" mt="1486021956197" redirect="true"/>
 </manifest>
