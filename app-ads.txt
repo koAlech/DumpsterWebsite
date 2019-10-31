@@ -1,2 +1,3 @@
 google.com, pub-2376765126115108, DIRECT, f088c47fec942fa0
 facebook.com, 116481772431366, DIRECT
+mopub.com, 74e10b22766b47b381f2d931eca3bf64, DIRECT, 74b46c0ea83967ca
